@@ -1,7 +1,7 @@
 ![George Chios Portfolio](https://user-images.githubusercontent.com/38636581/46249769-f29e6d80-c3eb-11e8-9efd-ab1ec88e56e8.png)
 ___
-# georgechios.com
-My portfolio site built in React
+# [georgechios.com](https://www.georgechios.com/)
+My portfolio site built in React. Visit [here](https://www.georgechios.com/)
 ___
 ## Visual Demo:
 ![Gif of Site](https://user-images.githubusercontent.com/38636581/46249769-f29e6d80-c3eb-11e8-9efd-ab1ec88e56e8.png)
@@ -20,6 +20,7 @@ ___
 *  Meetups page listing meetups I am hosting/am apart 
  
 ## Links / Social Media:
+* [My Website](https://www.georgechios.com/)
 * [Youtube Channel](https://www.youtube.com/channel/UCXvjbLXk85PIhrkWgCdb9TA)
 * [Twitter](https://twitter.com/imrusticpenguin)
 * [GitHub](https://github.com/rusticpenguin)
