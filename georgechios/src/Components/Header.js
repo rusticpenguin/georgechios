@@ -18,11 +18,11 @@ class Header extends Component {
         </div>
         <nav>
           <ul>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/about'>About</Link></li>
-            <li><Link to='/projects'>Projects</Link></li>
-            <li><Link to='/meetups'>Meetups</Link></li>
-            <li><a href="https://www.rusticpenguin.com"><img src="https://via.placeholder.com/90x90" alt="Rustic Penguin"></img></a></li>
+            <li className="navHome"><Link to='/'>Home</Link></li>
+            <li className="navAbout"><Link to='/about'>About</Link></li>
+            <li className="navProjects"><Link to='/projects'>Projects</Link></li>
+            <li className="navMeetups"><Link to='/meetups'>Meetups</Link></li>
+            <li className="navPenguin"><a href="https://www.rusticpenguin.com"><img src="https://via.placeholder.com/90x90" alt="Rustic Penguin"></img></a></li>
           </ul>
         </nav>
       </header>
