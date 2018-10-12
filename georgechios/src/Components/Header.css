@@ -1,18 +1,38 @@
 header {
-    margin: 0vw;
+
 }
 
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+}
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-.MyName {
+.center {
     width: 100vw;
     display: flex;
     justify-content: center;
 }
 
+.nameAndLogo {
+    width: 450px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Iphone's */
 @media screen and (max-width: 30em){
-    header {
-        margin: 0 3vw;
+    h1 {
+        font-size: 30px;
+    }
+    .nameAndLogo {
+        width: 380px;
+        justify-content: flex-start;
     }
 }
