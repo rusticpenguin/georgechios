@@ -6,10 +6,13 @@ class Header extends Component {
   render() {
     return ( 
       <header>
+          
         <div className="MyName">
           <Link to='/'>
             <img src="https://via.placeholder.com/90x90" alt="logo" />
-            <h1> George Chios </h1>
+          </Link>
+          <Link to='/'>
+              <h1> George Chios </h1>
           </Link>
         </div>
         <nav>
