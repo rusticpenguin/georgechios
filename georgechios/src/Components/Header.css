@@ -1,0 +1,19 @@
+header {
+    margin: 0vw;
+}
+
+
+
+.MyName {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Iphone's */
+@media screen and (max-width: 30em){
+    header {
+        margin: 0 3vw;
+    }
+}
