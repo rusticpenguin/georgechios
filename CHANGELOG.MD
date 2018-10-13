@@ -23,5 +23,5 @@ Creates routing between pages and adds a 404 route
 ### Changed
 - Moved App.js and all components into Components folder
 
-[0.1.1]:#
+[0.1.1]:https://github.com/rusticpenguin/georgechios/tree/0.1.1
 [0.1.0]:https://github.com/rusticpenguin/georgechios/tree/0.1.0
