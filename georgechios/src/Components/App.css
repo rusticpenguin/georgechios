@@ -7,3 +7,38 @@ body {
     background-position: 0 0, 15px 15px;
     margin: 0 0;
 }
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #2D2B29;
+}
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 38px;
+    color: #2D2B29;
+}
+
+p {
+    margin: 0 2vw;
+    font-family: 'EB Garamond', normal;
+    font-size: 24px;
+    color: #2D2B29;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    padding-bottom: 3vw;
+}
+
