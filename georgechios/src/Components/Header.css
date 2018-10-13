@@ -9,20 +9,6 @@ nav {
     width: 100vw;
     display: flex;
     justify-content: center;
-}
-
-h1 {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 50px;
-    color: #2D2B29;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-nav {
     background-color: #54a6ff;
     background-image:
         radial-gradient(#63adff 20%, transparent 0), 
@@ -34,7 +20,8 @@ nav {
 }
 
 nav ul {
-    width: 100vw;
+    padding: 0;
+    width: 80vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -65,7 +52,7 @@ nav ul li:hover {
 }
 
 .nameAndLogo {
-    width: 450px;
+    width: 500px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -114,11 +101,10 @@ nav ul li:hover {
 
 
 /* Smart Phones */
-@media screen and (max-width: 30em){
-    h1 {
-        font-size: 30px;
+@media screen and (max-width: 40em){
+    nav ul {
+        width: 100vw;
     }
-    
     nav ul li {
         font-size: 5vw;
     }
@@ -130,6 +116,8 @@ nav ul li:hover {
 
     .navHome, .navAbout, .navProjects, .navMeetups {
         transform:rotate(0deg);
+        width: 47vw;
+        border-radius: 0;
     }
 
     .navPenguin {

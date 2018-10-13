@@ -1,0 +1,16 @@
+main {
+    margin: 20px 10vw;
+    padding: 10px 10vw; 
+    background:url(
+        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAIUlEQVQYV2P8////fwY0wAgTfPiDgUGeAyILF0RWTLwgAEuZFfLl0hmXAAAAAElFTkSuQmCC            ) repeat;
+    border: solid 10px white;
+    border-radius: 2px;
+}
+
+/* Smart Phones */
+@media screen and (max-width: 40em){
+    main {
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+}
