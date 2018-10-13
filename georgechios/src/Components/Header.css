@@ -45,21 +45,6 @@ nav ul li:hover {
     transform: rotate(0deg);
 }
 
-h1 {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 60px;
-    color: white;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #2D2B29;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
 .center {
     width: 100vw;
     display: flex;

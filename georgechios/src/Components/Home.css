@@ -1,0 +1,21 @@
+.aboutMe {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resumeButton {
+    background: #1fc186cc;
+    background: linear-gradient(to right, #8df24bcc , #1fc186cc);
+    border-color: rgba(178, 209, 159, 0.8);
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0px;
+    color: white;;
+    height: 55px;
+    width: 300px;
+    border-radius: 100px;
+    border-width: 1px;
+}

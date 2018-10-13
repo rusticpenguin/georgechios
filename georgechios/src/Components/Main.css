@@ -1,0 +1,12 @@
+main {
+    margin: 20px 10vw;
+    padding: 10px 10vw; 
+    background: white;
+}
+
+/* Smart Phones */
+@media screen and (max-width: 40em){
+    main {
+        margin: 20px 0;
+    }
+}
