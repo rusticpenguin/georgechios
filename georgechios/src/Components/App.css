@@ -1,4 +1,81 @@
 body {
+    background-color: #2398ff;
+    background-image:
+        radial-gradient(#0d7eff 10%, transparent 0), 
+        radial-gradient(#0d7eff 10%, transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
     margin: 0 0;
-    background: #2398ff;
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #2D2B29;
+}
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 38px;
+    color: #2D2B29;
+}
+
+p {
+    margin: 0 2vw;
+    font-family: 'EB Garamond', normal;
+    font-size: 24px;
+    color: #2D2B29;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-bottom: 3vw;
+}
+
+span {
+    font-family: 'EB Garamond', normal;
+    color: white;
+}
+
+.link {
+    color: #57c9e9;
+}
+
+/* Smart Phones */
+@media screen and (max-width: 40em){
+    h1 {
+        font-size: 30px;
+        -webkit-text-stroke-width: 2px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    article {
+        flex-flow: column wrap;
+        align-items: none;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .articlePicture{
+        width: 60vw;
+    }
 }
