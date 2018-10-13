@@ -2,6 +2,7 @@ main {
     margin: 20px 10vw;
     padding: 10px 10vw; 
     background: white;
+    border-radius: 2px;
 }
 
 /* Smart Phones */
