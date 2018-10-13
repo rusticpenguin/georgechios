@@ -5,10 +5,11 @@ import About from './About';
 import Projects from './Projects';
 import Meetups from './Meetups';
 import PageNotFound from './PageNotFound'
+import './Main.css'
 
 class Main extends Component {
   render() {
-    return ( 
+    return (
       <main>
         <Switch>
           <Route exact path='/' component={Home}/>
