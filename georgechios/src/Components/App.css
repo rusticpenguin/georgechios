@@ -67,7 +67,7 @@ span {
 
     article {
         flex-flow: column wrap;
-        align-items: flex-start;
+        align-items: none;
     }
 
     p {

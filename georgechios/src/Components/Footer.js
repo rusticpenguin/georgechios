@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return ( 
       <footer>
-        <span>This is a <Link to='/'>footer</Link></span>
+        <span>This site was designed and created by <Link className="link" to='https://www.linkedin.com/in/georgechios/'>George Chios</Link> &copy; 2018 </span>
       </footer>
     );
 	}
