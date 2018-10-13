@@ -46,6 +46,14 @@ article {
     padding-bottom: 3vw;
 }
 
+span {
+    color: white;
+}
+
+.link {
+    color: #57c9e9;
+}
+
 /* Smart Phones */
 @media screen and (max-width: 40em){
     h1 {
