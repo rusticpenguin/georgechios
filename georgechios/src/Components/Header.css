@@ -22,10 +22,12 @@ a {
 nav {
     background-color: #54a6ff;
     background-image:
-      radial-gradient(#63adff 20%, transparent 0), 
-      radial-gradient(#63adff 20%, transparent 0);
+        radial-gradient(#63adff 20%, transparent 0), 
+        radial-gradient(#63adff 20%, transparent 0);
     background-size: 30px 30px;
     background-position: 0 0, 15px 15px;
+    border-top: 4px solid #86c6ff;
+    border-bottom: 4px solid #86c6ff;
 }
 
 nav ul {
@@ -104,21 +106,31 @@ nav ul li:hover {
 }
 
 .navMeetups:hover {
-    background-color: #92a5cf;
+    background-color: #4670d1;
 }
 
 
-/* Iphone's */
+/* Smart Phones */
 @media screen and (max-width: 30em){
     h1 {
         font-size: 30px;
     }
+    
+    nav ul li {
+        font-size: 5vw;
+    }
+
     .nameAndLogo {
         width: 380px;
         justify-content: flex-start;
     }
 
-    nav ul li {
-        font-size: 5vw;
+    .navHome, .navAbout, .navProjects, .navMeetups {
+        transform:rotate(0deg);
+    }
+
+    .navPenguin {
+        display: none;
+        visibility:hidden;
     }
 }
