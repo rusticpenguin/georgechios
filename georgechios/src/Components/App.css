@@ -24,8 +24,10 @@ h2 {
     color: #2D2B29;
 }
 
-br {
-    border: 1px solid black; 
+h3 {
+    font-family: 'EB Garamond', normal;
+    font-size: 24px;
+    color: #2D2B29;
 }
 
 p {
@@ -60,6 +62,32 @@ span {
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.emailMe {
+    float: right;
+    font-family: 'Cairo', sans-serif;
+    font-size: 100%;
+    border: 3px solid grey;
+    background: #2D2B29;
+    padding: 1vh 1vw;
+    font-weight: bold; 
+    border-radius: 50px;
+}
+
+.emailMe:hover {
+    background: #413e3b;
+}
+
+.emailMe:active {
+    background: #2D2B29;
+    border-color: #aaaaaa;
 }
 
 .link {

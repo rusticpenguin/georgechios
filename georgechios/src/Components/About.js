@@ -4,7 +4,8 @@ class About extends Component {
   render() {
     return ( 
       <div>
-        <section>
+        <div>
+          <a href="#" className="emailMe link">Email Me!</a>
           <h2>Hello, I am George Chios!</h2>
           <article className="pictureLeft">
             <img className="articlePicture" src="https://via.placeholder.com/300x300" alt="Profile Picture of George" />
@@ -13,28 +14,28 @@ class About extends Component {
               <button className="resumeButton">- My Resume -</button>
             </div>
           </article>
-        </section>
+        </div>
         <hr />
-        <section>
+        <div>
           <h2>Software Developer, Game Designer, Audio Engineer</h2>
           <article>
             <img className="articlePicture" src="https://via.placeholder.com/900x300" alt="Profile Picture of George" />
             <div className="threeColumns">
-              <section>
+              <section className="column">
                 <h3>Software Development</h3>
                 <p>I do a lot of different things. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </section>
-              <section>
+              <section className="column">
                 <h3>Game Design</h3>
                 <p>I do a lot of different things. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </section>
-              <section>
+              <section className="column">
                 <h3>Audio Engineering</h3>
                 <p>I do a lot of different things. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </section>
             </div>
           </article>
-        </section>
+        </div>
       </div>
     );
 	}
