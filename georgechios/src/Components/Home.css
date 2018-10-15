@@ -6,9 +6,9 @@
 }
 
 .resumeButton {
+    border: none;
     background: #1fc186cc;
-    background: linear-gradient(to right, #8df24bcc , #1fc186cc);
-    border-color: rgba(178, 209, 159, 0.8);
+    border: 4px solid #5eebb7cc;
     font-family: 'Cairo', sans-serif;
     font-weight: bold;
     font-size: 30px;
@@ -17,7 +17,15 @@
     height: 55px;
     width: 300px;
     border-radius: 100px;
-    border-width: 1px;
+}
+
+.resumeButton:hover{
+    background: #34cf96cc;
+}
+
+.resumeButton:active{
+    background: #2ecf94cc;
+    border: 4px solid #1fc186cc;
 }
 
 /* Smart Phones */

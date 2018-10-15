@@ -5,6 +5,7 @@ body {
         radial-gradient(#0d7eff 10%, transparent 0);
     background-size: 30px 30px;
     background-position: 0 0, 15px 15px;
+    background-attachment: fixed;
     margin: 0 0;
 }
 
@@ -13,7 +14,7 @@ h1 {
     font-size: 60px;
     color: white;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #2D2B29;
 }
 
@@ -21,6 +22,10 @@ h2 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 38px;
     color: #2D2B29;
+}
+
+br {
+    border: 1px solid black; 
 }
 
 p {
@@ -39,16 +44,22 @@ section {
     width: 100%;
 }
 
-article {
+span {
+    font-family: 'EB Garamond', normal;
+    color: white;
+}
+
+.pictureLeft {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     padding-bottom: 3vw;
 }
 
-span {
-    font-family: 'EB Garamond', normal;
-    color: white;
+.threeColumns {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
 }
 
 .link {
@@ -59,14 +70,14 @@ span {
 @media screen and (max-width: 40em){
     h1 {
         font-size: 30px;
-        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 1px;
     }
     h2 {
         text-align: center;
         font-size: 22px;
     }
 
-    article {
+    .pictureLeft, .threeColumns {
         flex-flow: column wrap;
         align-items: none;
     }
