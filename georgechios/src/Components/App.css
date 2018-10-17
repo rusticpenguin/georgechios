@@ -99,11 +99,50 @@ span {
 
 .emailIcon {
     width: 100%;
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
 }
+
 .link {
     color: #57c9e9;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10vw;
+}
+
+.twitter, .github, .youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 4px solid black;
+    border-radius: 100%;
+}
+
+.twitter {
+    background-color: #3c5eab;
+    border-color: #4878e7;
+}
+
+.github {
+    background-color: #7bc572;
+    border-color: #a7df9f;
+}
+
+.youtube {
+    background-color: #d88986;
+    border-color: #ebbbb8;
+}
+
+.buttonSvg {
+    width: 400%;
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 /* Smart Phones */
