@@ -36,6 +36,8 @@
         width: 100%;
         font-size: 24px;
         border-radius: 0;
-        border-width: 3px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-width: 4px;
     }
 }

@@ -72,7 +72,6 @@ span {
 }
 
 .emailMe, .emailMobile{
-    float: right;
     font-family: 'Cairo', sans-serif;
     font-size: 100%;
     border: 3px solid #a8ceff;
@@ -93,8 +92,10 @@ span {
 
 .emailMobile {
     display: none;
-    width: 10%;
+    width: 96%;
+    height: 30px;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -196,6 +197,14 @@ span {
     
     .emailMobile {
         display: flex;
+        margin-bottom: 10px;
+        border-radius: 0;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .aboutTitle {
+        justify-content: center;
     }
 
     .articlePicture {
