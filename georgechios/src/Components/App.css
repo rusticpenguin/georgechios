@@ -98,62 +98,10 @@ span {
     align-items: center;
 }
 
-
 .link {
     color: #57c9e9;
 }
 
-.socialMedia {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 10vw;
-}
-
-.twitter, .github, .youtube, .linkedIn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    border: 4px solid black;
-    border-radius: 100%;
-}
-
-.twitter {
-    background-color: #3c5eab;
-    border-color: #638ceb;
-}
-
-.github {
-    background-color: #7bc572;
-    border-color: #a7df9f;
-}
-
-.youtube {
-    background-color: #d88986;
-    border-color: #ebbbb8;
-}
-
-.linkedIn {
-    background-color: #5a9cda;
-    border-color: #9eceeb;
-}
-
-.twitter:hover {
-    background-color: #4670d1;
-}
-
-.github:hover {
-    background-color: #72d168;
-}
-
-.youtube:hover {
-    background-color: #ec9996;
-}
-
-.linkedIn:hover {
-    background-color: #66a6e2;
-}
 
 .buttonSvg {
     width: 400%;
