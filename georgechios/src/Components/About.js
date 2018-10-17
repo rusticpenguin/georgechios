@@ -47,6 +47,16 @@ class About extends Component {
           <a href="https://www.linkedin.com/in/georgechios/" target="_blank" className="linkedIn"><svg className="invert buttonSvg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg></a>
         </div>
         <hr />
+        <div className="timeline">
+          <h2>The Timeline</h2>
+          <article>
+            <img className="articlePicture" src="https://via.placeholder.com/900x400" alt="Profile Picture of George" />
+            <h3>blah blah blah</h3>
+            <p>Stuff will go here</p>
+
+            <p>lorem ipsum and i didnt want to copy and paste that. So I'll just paste this. lorem ipsum and i didnt want to copy and paste that. So I'll just paste this. lorem ipsum and i didnt want to copy and paste that. So I'll just paste this.</p>
+          </article>
+        </div>
       </div>
     );
 	}
