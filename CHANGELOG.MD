@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.3] - About Layout - 2018/10/17
+Moves Home page layout to the About page. Adds mobile friendly scaling on email. Adds SocialMedia component
+
+### Added
+- About Layout/Styling
+- SocialMedia component
+- Footer Styling
+
+### Changed
+- Email button styling on mobile and desktop
+- Shuffled around CSS to the appropriate files
+
+### Removed
+- Original Home layout
 
 ## [0.1.2] - Articles and Scaling - 2018/10/13
 Creates Articles and fixes scaling on the nav bar. Adds a Footer.
@@ -36,6 +50,7 @@ Creates routing between pages and adds a 404 route
 ### Changed
 - Moved App.js and all components into Components folder
 
+[0.1.3]:https://github.com/rusticpenguin/georgechios/tree/0.1.3
 [0.1.2]:https://github.com/rusticpenguin/georgechios/tree/0.1.2
 [0.1.1]:https://github.com/rusticpenguin/georgechios/tree/0.1.1
 [0.1.0]:https://github.com/rusticpenguin/georgechios/tree/0.1.0

@@ -5,6 +5,7 @@ body {
         radial-gradient(#0d7eff 10%, transparent 0);
     background-size: 30px 30px;
     background-position: 0 0, 15px 15px;
+    background-attachment: fixed;
     margin: 0 0;
 }
 
@@ -13,13 +14,19 @@ h1 {
     font-size: 60px;
     color: white;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #2D2B29;
 }
 
 h2 {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 38px;
+    color: #2D2B29;
+}
+
+h3 {
+    font-family: 'EB Garamond', normal;
+    font-size: 24px;
     color: #2D2B29;
 }
 
@@ -39,34 +46,102 @@ section {
     width: 100%;
 }
 
-article {
+span {
+    font-family: 'EB Garamond', normal;
+    color: white;
+}
+
+.pictureLeft {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     padding-bottom: 3vw;
 }
 
-span {
-    font-family: 'EB Garamond', normal;
-    color: white;
+.threeColumns {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.emailMe, .emailMobile{
+    font-family: 'Cairo', sans-serif;
+    font-size: 100%;
+    border: 3px solid #a8ceff;
+    background: #3f5c99;
+    padding: 1vh 1vw;
+    font-weight: bold; 
+    border-radius: 50px;
+}
+
+.emailMe:hover, .emailMobile:hover {
+    background: #33497a;
+}
+
+.emailMe:active, .emailMobile:active {
+    background: #1b81e0;
+    border-color: #6286bd;
+}
+
+.emailMobile {
+    display: none;
+    width: 96%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .link {
     color: #57c9e9;
 }
 
+
+.buttonSvg {
+    width: 400%;
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.aboutTitle {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timeline {
+    margin-bottom: 60px;
+}
+
 /* Smart Phones */
 @media screen and (max-width: 40em){
     h1 {
         font-size: 30px;
-        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 1px;
     }
     h2 {
         text-align: center;
         font-size: 22px;
     }
 
-    article {
+    .pictureLeft, .threeColumns {
         flex-flow: column wrap;
         align-items: none;
     }
@@ -75,7 +150,23 @@ span {
         font-size: 18px;
     }
 
-    .articlePicture{
-        width: 60vw;
+    .emailMe {
+        display: none;
+    }
+    
+    .emailMobile {
+        display: flex;
+        margin-bottom: 10px;
+        border-radius: 0;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .aboutTitle {
+        justify-content: center;
+    }
+
+    .articlePicture {
+        width: 80vw;
     }
 }
