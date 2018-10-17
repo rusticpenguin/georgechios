@@ -98,6 +98,13 @@ span {
     align-items: center;
 }
 
+.aboutMe {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .link {
     color: #57c9e9;
 }

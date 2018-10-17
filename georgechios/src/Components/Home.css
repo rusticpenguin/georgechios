@@ -1,8 +1,9 @@
-.aboutMe {
+
+
+.welcomeHome {
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    font-size: 50px;
 }
 
 .resumeButton {
@@ -31,6 +32,9 @@
 
 /* Smart Phones */
 @media screen and (max-width: 40em){
+    .welcomeHome {
+        font-size: 22px;
+    }
     .resumeButton {
         margin-top: 20px;
         width: 100%;
