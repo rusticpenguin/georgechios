@@ -136,6 +136,18 @@ span {
     border-color: #ebbbb8;
 }
 
+.twitter:hover {
+    background-color: #4670d1;
+}
+
+.github:hover {
+    background-color: #72d168;
+}
+
+.youtube:hover {
+    background-color: #ec9996;
+}
+
 .buttonSvg {
     width: 400%;
 }
